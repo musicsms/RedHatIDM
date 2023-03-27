@@ -142,3 +142,28 @@ Managing user identities and access permissions for multiple applications and se
 Many applications require some level of authentication and authorization functionality. RedHat IDM supports multiple industry-standard protocols such as SAML and OAuth2, making it easier for enterprises to integrate IDM with these applications and provide secure access to authorized users.
 
 Overall, these are just a few of the requirements that explain why an enterprise may need to use RedHat IDM. By providing centralized identity management, strong security features, integration with existing infrastructure, improved productivity, and application integration capabilities, RedHat IDM can help enterprises streamline their IT operations and improve their overall security posture.
+
+## You
+
+write the application landscape overview when organization using local authentication for Linux system instead of using RedHat IDM
+
+## Genie
+
+Sure, here is an overview of the application landscape when an organization uses local authentication for Linux systems instead of using RedHat IDM:
+
+## Multiple Authentication Silos
+When using local authentication for Linux systems, each system has its own siloed approach to managing user credentials. This can lead to inconsistencies in password policies, access controls, and auditing across different systems.
+
+## Increased Administrative Overhead
+System administrators must manage user accounts and permissions on each individual Linux system separately. This can be time-consuming, error-prone, and challenging to scale as the number of systems or users increases.
+
+## Limited Access Control
+With local authentication, access control is typically limited to providing or denying user access based on their Linux user account. This can be insufficient for organizations that need fine-grained access control over resources at the application level.
+
+## Audit Trail Challenges
+When using local authentication, it may be difficult or impossible to create a comprehensive audit trail of user activity across different systems. This can make detecting security breaches or compliance violations more challenging.
+
+## Reduced User Experience
+With local authentication, users may need to remember separate usernames and passwords for each Linux system they need to access. Additionally, if the user changes their password, they will need to update their password manually on each system where they have an account.
+
+Overall, using local authentication for Linux systems can result in an unnecessarily complex and inconsistent application landscape. By adopting a centralized identity management solution like RedHat IDM, organizations can streamline access management, improve security, and provide a better user experience for their employees.
