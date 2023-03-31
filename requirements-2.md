@@ -223,3 +223,9 @@ To mitigate these problems, it is essential to adopt centralized identity manage
 5. Centralized Monitoring: IDM provides centralized monitoring capabilities that allow administrators to monitor user activities and detect potential threats.
 
 In summary, adopting centralized identity management solutions like RedHat IDM can help organizations simplify their authentication and authorization processes, ensuring greater consistency and security across all systems and applications. By adopting features like SSO, LDAP Directory services, RBAC, Two-Factor Authentication, and Centralized Monitoring, organizations can mitigate the risks of using local authentication on Linux.
+
+The feature of RedHat IDM that provides the ability to apply policies uniformly to multiples of machines at the same time is called "Automated Provisioning".
+
+Automated provisioning in IDM allows administrators to define and enforce policies that govern user authentication, authorization, and access control across multiple systems and applications. With this feature, administrators can create centralized policies and apply them simultaneously to all managed systems and clients. This ensures that role-based access control (RBAC) and group membership are consistent across an organization's entire IT infrastructure.
+
+By automating the provisioning process, administrators can reduce human error and improve efficiency by ensuring that new users are automatically granted the correct level of access to different resources. Moreover, automated provisioning simplifies the maintenance of access policies since they only need to be modified once in IDM, which will automatically propagate them to all connected systems.
