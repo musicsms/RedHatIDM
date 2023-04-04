@@ -34,3 +34,23 @@ FreeIPA is an open-source project with community-driven support and offers great
 Keycloak is also an open-source project with community-driven support and can be installed on-premise or in the cloud. The tool provides a web-based administration console and REST API for managing users and groups, which can make it easier to deploy and manage than other solutions. Keycloak is suitable for developers who want to build their own identity and access management solutions by integrating with existing applications, microservices, or APIs.
 
 Overall, while each solution has its strengths and weaknesses, organizations should consider their specific needs and IT environments when choosing the most appropriate solution for their operation criteria.
+
+## You
+
+write it as tables same as before
+
+## Genie
+
+| Criteria          | Red Hat IDM                                                  | FreeIPA                                                 | Keycloak                                                  |
+|-------------------|--------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------|
+| Deployment        | Requires installation and setup on-premise or in the cloud. | Can be installed on-premise or in the cloud.           | Can be installed on-premise or in the cloud.             |
+| Management        | Can work seamlessly with other Red Hat products.              | Well-documented documentation and community support.   | Provides a web-based administration console and REST API. |
+| Ongoing Maintenance | Enterprise-level product with comprehensive feature set.      | Flexibility and customization options.                 | Suitable for developers wanting to build their own IAM.  |
+
+This table provides a quick overview of the operation criteria for Red Hat IDM, FreeIPA, and Keycloak. 
+
+Organizations looking for more enterprise-level solutions may choose Red Hat IDM due to its comprehensive feature set and seamless compatibility with other Red Hat products. However, this option requires a more complex installation and setup process.
+
+FreeIPA is an open-source project with community-driven support that allows for greater flexibility and customization, making it easier to manage for smaller organizations or those with limited resources.
+
+Keycloak is also an open-source project with community-driven support, but it provides a web-based administration console and REST API for managing users and groups, making it easier to deploy and manage than other solutions. It's suitable for developers who want to build their own identity and access management solutions by integrating with existing applications, microservices, or APIs.
