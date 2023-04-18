@@ -71,3 +71,14 @@ in the environment we are using on both on-premise and in the cloud. Write pros 
 | 2 Nodes On Cloud + 2 On-Prem  | Provides a hybrid solution that leverages the strengths of both on-premise and cloud environments, increased redundancy and fault tolerance across different locations, scalable and flexible.      | Increased complexity in managing multiple environments, requires IT staff to manage both on-premise and cloud-based resources, higher initial costs for hardware and cloud resources. |
 
 Out of all the deployment methods, 2 nodes on cloud and two on-premise nodes provides a balanced approach for leveraging the strengths of both environments while mitigating their drawbacks. This deployment method offers increased redundancy and fault tolerance across different locations, providing a more reliable and robust infrastructure. The hybrid solution is also scalable, meaning additional resources can be added to either environment as needed. While this deployment method can increase the complexity of managing multiple environments and require IT staff to manage both on-premise and cloud-based resources, it offers the best of both worlds in terms of security, scalability, and flexibility.
+
+
+There are several reasons why using 2 nodes on premise and 2 nodes on the cloud is preferable to using 1 node on premise and 1 node on the cloud. 
+
+Firstly, having multiple nodes on each environment allows for better fault tolerance and high availability. If one node fails, the other node can continue handling requests, minimizing downtime and ensuring that the application remains available.
+
+Secondly, it can provide better load balancing and improved performance. By distributing the load across multiple nodes, the system can handle a higher number of requests and perform better overall.
+
+Lastly, having multiple nodes in different environments can provide greater flexibility and scalability as the system grows. It allows for easier scaling up or down by adding or removing nodes as needed, and can also help with disaster recovery planning.
+
+Overall, using 2 nodes on each environment is a recommended best practice for building robust and reliable systems that can handle a variety of workloads and remain highly available even in the face of failures or unexpected events.
